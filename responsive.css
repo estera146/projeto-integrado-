@@ -1,0 +1,62 @@
+
+@media screen and (max-width: 900px){
+    header .menu-desktop{
+        display:none ;
+    }
+    
+}
+
+    @media screen and (max-width: 800px){
+        #home h1 {
+    font-size: 30px; /*Tamanho do texto*/
+    
+}
+#home p {
+    font-size: 18px; /*Tamanho do texto*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*tipo da fonte*/
+    line-height: 45px /*Espaçamento entre linha*/
+}
+
+h1{
+    font-size: 30px; /*tamanho do texto*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Tipo da fonte*/
+    font-style: italic; /*estilo da fonte*/
+    text-align: center; /*Alinhamento*/
+    text-decoration: underline; /*Sublinhamento*/
+    letter-spacing: 3px; /*Espaçamento das letras*/
+    line-height: 45px; /*Espaçamento entre linhas*/
+    margin-bottom: 0px; /*Espaço abaixo dos títulos*/
+
+}
+ h2 {
+  margin-bottom: 15px; /* Espaço abaixo dos títulos */
+  color: #1e3a8a; /* Cor azul escuro */
+}
+
+
+    }
+
+    header.rolar{
+  background-color: #2563eb;
+  padding: 20px 0 ;
+
+}
+
+header.rolar .menu-desktop nav ul li a{ 
+  color: #333;
+  
+}
+@media screen and (min-width: 900px){
+    header .btn-menu-mob{
+        display:none ;
+    }
+    
+}
+
+@media screen and (min-width: 900px){
+    header .menu-mobile{
+        display:none ;
+    }
+    
+}
+
